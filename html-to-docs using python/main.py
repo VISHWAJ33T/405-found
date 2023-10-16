@@ -1,4 +1,4 @@
-import re  # Add this line to import the 're' module
+import re
 import aspose.words as aw
 import docx
 # doc = aw.Document("./Samples/sample_level_1.html")
@@ -13,7 +13,7 @@ doc = aw.Document("./Samples/sample_level_4.html")
 doc.save("Output/without watermark/sample_level_4.docx")
 
 
-print ("Word files without Watermark saved successfully")
+print("Word files without Watermark saved successfully")
 
 
 # document = docx.Document("Output/without watermark/sample_level_1.docx")
@@ -37,9 +37,4 @@ doc.watermark.set_text(waterMark, options)
 # doc.save("Output/sample_level_3.docx")
 doc.save("Output/sample_level_4.docx")
 
-print ("Watermark added successfully in the Word file")
-
-
-
-
-
+print("Watermark added successfully in the Word file")
